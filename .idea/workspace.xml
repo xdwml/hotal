@@ -1,25 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hotel:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="90331c95-ff54-4352-a290-ef57e80b4150" name="Default Changelist" comment="" />
+    <list default="true" id="90331c95-ff54-4352-a290-ef57e80b4150" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/boardList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/cuisineList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/foodList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/left.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/orderDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/orderList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/right.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/saveBoard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/saveCuisine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/saveFood.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/top.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/updateCuisine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/updateFood.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/boardList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/cuisineList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/foodList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/left.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/orderDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/orderList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/right.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/saveBoard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/saveCuisine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/saveFood.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/common_style_blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/QueryArea_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/TableTail_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/TableTitle_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/button_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/inputPageHeadBg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/pageNum_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/title_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/title_bg_end.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/title_bg_head.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/css/index_1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/Header_back.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/Header_forward.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/Header_refresh.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/baizhuoxia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/func20001.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/help2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/img/menu_arrow_single.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/img/menu_btn_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/img/top_head1_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/img/top_head2_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/info.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/item_point.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/logout.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/title_arrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/user.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/images/version.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/style/js/page_common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/top.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/updateCuisine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail/updateFood.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1ZfbPrXnLk0UlESPry6gNSLmmY8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA\hotel\web\sys\detail\public" />
+      <recent name="E:\IDEA\hotel\web\sys" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\hotel\web" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.53" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.53" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/hotel/" />
       <deployment>
         <artifact name="hotel:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/hotel_war_exploded" />
+            <option name="CONTEXT_PATH" value="/hotel" />
           </settings>
         </artifact>
       </deployment>
@@ -31,6 +126,39 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51724" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -54,6 +182,29 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.18029237" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,8 +215,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585233080703</updated>
-      <workItem from="1585233098018" duration="4000" />
+      <workItem from="1585233098018" duration="851000" />
+      <workItem from="1585315284035" duration="4934000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1780" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585320517812">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1780" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320517812" />
+    <state width="1513" height="174" key="GridCell.Tab.0.bottom" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state width="1513" height="174" key="GridCell.Tab.0.center" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state width="1513" height="174" key="GridCell.Tab.0.left" timestamp="1585320692153">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692153" />
+    <state width="1513" height="174" key="GridCell.Tab.0.right" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state width="1513" height="174" key="GridCell.Tab.1.bottom" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state width="1513" height="174" key="GridCell.Tab.1.center" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state width="1513" height="174" key="GridCell.Tab.1.left" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state width="1513" height="174" key="GridCell.Tab.1.right" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state width="1513" height="174" key="GridCell.Tab.2.bottom" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.2.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013197" />
+    <state width="1513" height="174" key="GridCell.Tab.2.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state width="1513" height="174" key="GridCell.Tab.2.center" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.2.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.2.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state width="1513" height="174" key="GridCell.Tab.2.left" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.2.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.2.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state width="1513" height="174" key="GridCell.Tab.2.right" timestamp="1585320692155">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="904" height="174" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
+    <state width="1513" height="174" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
   </component>
 </project>
