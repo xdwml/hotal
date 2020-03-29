@@ -7,74 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90331c95-ff54-4352-a290-ef57e80b4150" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/dao/FoodTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/dao/Impl/FoodTypeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/entity/FoodType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/boardList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/bottom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/cuisineList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/foodList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/left.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/orderDetail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/orderList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/right.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/saveBoard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/saveCuisine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/saveFood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/top.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/updateCuisine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/detail/updateFood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/boardList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/bottom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/cuisineList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/foodList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/left.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/orderDetail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/orderList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/right.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/saveBoard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/saveCuisine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/saveFood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/common_style_blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/QueryArea_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/TableTail_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/TableTitle_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/button_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/inputPageHeadBg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/pageNum_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/title_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/title_bg_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/img/title_bg_head.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/css/index_1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/Header_back.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/Header_forward.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/Header_refresh.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/baizhuoxia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/func20001.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/help2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/img/menu_arrow_single.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/img/menu_btn_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/img/top_head1_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/img/top_head2_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/info.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/item_point.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/logout.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/title_arrow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/user.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/images/version.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/style/js/page_common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/top.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/updateCuisine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail/updateFood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +44,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1ZfbPrXnLk0UlESPry6gNSLmmY8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -97,15 +56,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\hotel\src" />
+      <recent name="E:\IDEA\hotel\web\WEB-INF\lib" />
+      <recent name="E:\IDEA\hotel\web\app" />
+      <recent name="E:\IDEA\hotel\web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IDEA\hotel\web\sys\detail\public" />
       <recent name="E:\IDEA\hotel\web\sys" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEA\hotel\web" />
     </key>
   </component>
   <component name="RunManager">
@@ -193,11 +155,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -217,6 +174,7 @@
       <updated>1585233080703</updated>
       <workItem from="1585233098018" duration="851000" />
       <workItem from="1585315284035" duration="4934000" />
+      <workItem from="1585489931847" duration="2487000" />
     </task>
     <servers />
   </component>
@@ -228,6 +186,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1780" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320517812" />
+    <state x="2131" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1585492404330">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2131" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585492404330" />
     <state width="1513" height="174" key="GridCell.Tab.0.bottom" timestamp="1585320692155">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -288,5 +250,9 @@
     </state>
     <state width="904" height="174" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1585234013196" />
     <state width="1513" height="174" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320692155" />
+    <state x="1989" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1585491724687">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1989" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585491724687" />
   </component>
 </project>
