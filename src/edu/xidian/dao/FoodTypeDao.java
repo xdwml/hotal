@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  * 2.菜系模块，dao接口设计，用于解耦合
+ 
+ 
  */
 public interface FoodTypeDao {
     /**
