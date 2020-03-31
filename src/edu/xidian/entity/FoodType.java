@@ -1,7 +1,8 @@
 package edu.xidian.entity;
 
 /**
- * 1.菜系模块，实体类设计，主要用于封装数据
+ * 1.菜系模块，实体类设计，用于封装数据
+ 
  */
 public class FoodType {
     private int id;//类别主键
