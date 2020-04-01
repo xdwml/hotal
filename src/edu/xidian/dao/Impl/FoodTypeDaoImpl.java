@@ -5,6 +5,9 @@ import edu.xidian.entity.FoodType;
 
 import java.util.List;
 
+/**
+ * 2.菜系模块dao实现
+ */
 
 public class FoodTypeDaoImpl implements FoodTypeDao {
 
