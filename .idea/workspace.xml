@@ -7,12 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90331c95-ff54-4352-a290-ef57e80b4150" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/utils/JdbcUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hotel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/dao/FoodTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/dao/FoodTypeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/xidian/dao/Impl/FoodTypeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/dao/Impl/FoodTypeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/utils/JdbcUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +50,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -173,6 +172,7 @@
       <workItem from="1585315284035" duration="4934000" />
       <workItem from="1585489931847" duration="2487000" />
       <workItem from="1585751995727" duration="1410000" />
+      <workItem from="1586098800635" duration="2022000" />
     </task>
     <servers />
   </component>
@@ -180,14 +180,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1918" y="197" key="#Project_Structure" timestamp="1586099557194">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1918" y="197" key="#Project_Structure/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586099557194" />
     <state x="1780" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585320517812">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1780" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320517812" />
-    <state x="2131" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1585492404330">
+    <state x="2131" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1586100182445">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2131" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585492404330" />
+    <state x="2131" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586100182445" />
     <state x="2000" y="279" key="FileChooserDialogImpl" timestamp="1585753446862">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -256,9 +260,9 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1806" y="113" key="SettingsEditor/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585753453968" />
-    <state x="1989" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1585491724687">
+    <state x="1989" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1586098877950">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1989" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585491724687" />
+    <state x="1989" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586098877950" />
   </component>
 </project>

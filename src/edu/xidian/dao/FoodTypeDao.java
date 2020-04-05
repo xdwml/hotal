@@ -21,7 +21,7 @@ public interface FoodTypeDao {
     /**
      * 删除
      */
-    void update(int id);
+    void delete(int id);
     /**
      * 根据主键查询
      */
