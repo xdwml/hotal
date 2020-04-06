@@ -7,11 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90331c95-ff54-4352-a290-ef57e80b4150" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/service/IFoodTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/service/Impl/FoodTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intance.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/xidian/dao/FoodTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/dao/FoodTypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/xidian/dao/Impl/FoodTypeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/dao/Impl/FoodTypeDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/xidian/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/utils/JdbcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/dao/FoodTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/dao/IFoodTypeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/dao/Impl/FoodTypeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/dao/Impl/FoodTypeDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -172,7 +174,7 @@
       <workItem from="1585315284035" duration="4934000" />
       <workItem from="1585489931847" duration="2487000" />
       <workItem from="1585751995727" duration="1410000" />
-      <workItem from="1586098800635" duration="2022000" />
+      <workItem from="1586098800635" duration="5097000" />
     </task>
     <servers />
   </component>
@@ -188,10 +190,14 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1780" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585320517812" />
-    <state x="2131" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1586100182445">
+    <state x="2131" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1586128133669">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2131" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586100182445" />
+    <state x="2131" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586128133669" />
+    <state x="2012" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586128301126">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2012" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586128301126" />
     <state x="2000" y="279" key="FileChooserDialogImpl" timestamp="1585753446862">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>

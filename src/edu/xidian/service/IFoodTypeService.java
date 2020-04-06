@@ -1,15 +1,13 @@
-package edu.xidian.dao;
+package edu.xidian.service;
 
 import edu.xidian.entity.FoodType;
 
 import java.util.List;
 
 /**
- * 2.菜系模块，dao接口设计，用于解耦合
- 
- 
+ * 菜系模块业务逻辑，接口设计
  */
-public interface FoodTypeDao {
+public interface IFoodTypeService {
     /**
      * 添加
      */
@@ -34,7 +32,4 @@ public interface FoodTypeDao {
      * 根据菜系名称查询
      */
     List<FoodType> getAll(String typeName);
-
-
-
 }
