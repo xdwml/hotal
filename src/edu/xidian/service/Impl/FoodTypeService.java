@@ -3,6 +3,7 @@ package edu.xidian.service.Impl;
 import edu.xidian.dao.IFoodTypeDao;
 import edu.xidian.dao.Impl.FoodTypeDao;
 import edu.xidian.entity.FoodType;
+import edu.xidian.factory.BeanFactory;
 import edu.xidian.service.IFoodTypeService;
 
 import java.util.List;
@@ -12,7 +13,9 @@ import java.util.List;
  */
 public class FoodTypeService implements IFoodTypeService {
     //调用dao
-    private IFoodTypeDao foodTypeDao=new FoodTypeDao();//对象的创建，不能写死
+    //private IFoodTypeDao foodTypeDao=new FoodTypeDao();//对象的创建，不能写死
+    //工厂创建对象
+    private IFoodTypeDao foodTypeDao= BeanFactory.getInstance("foodtypeDao", IFoodTypeDao.class);
 
     @Override
     public void delete(int id) {

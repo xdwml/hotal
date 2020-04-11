@@ -7,12 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90331c95-ff54-4352-a290-ef57e80b4150" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/service/IFoodTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/service/Impl/FoodTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intance.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/servlet/FoodTypeServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/xidian/dao/FoodTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/dao/IFoodTypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/xidian/dao/Impl/FoodTypeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/dao/Impl/FoodTypeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/service/Impl/FoodTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/service/Impl/FoodTypeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +173,7 @@
       <workItem from="1585489931847" duration="2487000" />
       <workItem from="1585751995727" duration="1410000" />
       <workItem from="1586098800635" duration="5097000" />
+      <workItem from="1586578231943" duration="2269000" />
     </task>
     <servers />
   </component>
