@@ -1,11 +1,9 @@
 package edu.xidian.service.Impl;
 
 import edu.xidian.dao.IFoodTypeDao;
-import edu.xidian.dao.Impl.FoodTypeDao;
 import edu.xidian.entity.FoodType;
 import edu.xidian.factory.BeanFactory;
 import edu.xidian.service.IFoodTypeService;
-
 import java.util.List;
 
 /**
