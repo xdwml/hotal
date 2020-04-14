@@ -4,6 +4,8 @@ import java.util.ResourceBundle;
 
 /**
  * 工厂：创建dao或service实例
+ 
+ 
  */
 public class BeanFactory {
 
