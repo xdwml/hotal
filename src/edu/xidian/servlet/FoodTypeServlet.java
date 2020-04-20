@@ -30,7 +30,7 @@ public class FoodTypeServlet extends HttpServlet {
     // 调用的菜系Service
     private IFoodTypeService foodTypeService = BeanFactory.getInstance("foodTypeService",IFoodTypeService.class);
     // 跳转资源
-    private Object uri;
+    private String uri;
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -81,13 +81,13 @@ public class FoodTypeServlet extends HttpServlet {
             foodTypeService.save(ft);
 
             // 3. 跳转
-            uri = request.getRequestDispatcher("/foodType?method=list");
+            uri = "/foodType?method=list";
         } catch (Exception e) {
             e.printStackTrace();
             uri = "/error/error.jsp";
         }
-
-        goTo(request, response, uri);
+        //转发
+        request.getRequestDispatcher(uri).forward(request,response);
 
 
     }
@@ -102,14 +102,14 @@ public class FoodTypeServlet extends HttpServlet {
             // 保存
             request.setAttribute("listFoodType", list);
             // 跳转的菜系列表页面
-            uri = request.getRequestDispatcher("/sys/type/foodtype_list.jsp");
+            uri = "/sys/type/foodtype_list.jsp";
         } catch (Exception e) {
             e.printStackTrace();
             uri = "/error/error.jsp";
         }
 
         // 跳转
-        goTo(request, response, uri);
+        request.getRequestDispatcher(uri).forward(request,response);
     }
 
     //c. 进入更新页面
