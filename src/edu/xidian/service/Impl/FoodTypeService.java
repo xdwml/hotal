@@ -7,8 +7,8 @@ import edu.xidian.service.IFoodTypeService;
 import java.util.List;
 
 /**
- * 业务逻辑层的接口实现
- 
+ * 业务逻辑层接口实现
+
  */
 public class FoodTypeService implements IFoodTypeService {
     //调用dao
