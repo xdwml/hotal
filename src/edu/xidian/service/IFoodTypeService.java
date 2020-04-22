@@ -5,8 +5,8 @@ import edu.xidian.entity.FoodType;
 import java.util.List;
 
 /**
- * 菜系模块业务逻辑和接口设计 
- 
+ * 菜系模块业务逻辑，接口设计 
+
  */
 public interface IFoodTypeService {
     /**
