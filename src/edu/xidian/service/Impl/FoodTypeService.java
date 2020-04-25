@@ -8,7 +8,6 @@ import java.util.List;
 
 /**
  * 业务逻辑层接口实现
-
  */
 public class FoodTypeService implements IFoodTypeService {
     //调用dao
