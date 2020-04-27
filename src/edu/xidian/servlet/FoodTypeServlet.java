@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -13,24 +14,21 @@ import edu.xidian.service.IFoodTypeService;
 
 /**
  * 4. 菜系管理Servlet开发
+ *
  * a. 添加菜系
  * b. 菜系列表展示
  * c. 进入更新页面
  * d. 删除
  * e. 更新
- 
- 
- 
- *
- * @author Jie.Yuan
  *
  */
+
 public class FoodTypeServlet extends HttpServlet {
 
     // 调用的菜系Service
-    private IFoodTypeService foodTypeService = BeanFactory.getInstance("foodTypeService",IFoodTypeService.class);
+    public IFoodTypeService foodTypeService = BeanFactory.getInstance("foodTypeService", IFoodTypeService.class);
     // 跳转资源
-    private String uri;
+    public String uri;
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -82,12 +80,13 @@ public class FoodTypeServlet extends HttpServlet {
 
             // 3. 跳转
             uri = "/foodType?method=list";
+
         } catch (Exception e) {
             e.printStackTrace();
             uri = "/error/error.jsp";
         }
         //转发
-        request.getRequestDispatcher(uri).forward(request,response);
+        goTo(request,response,uri);
 
 
     }
@@ -109,7 +108,7 @@ public class FoodTypeServlet extends HttpServlet {
         }
 
         // 跳转
-        request.getRequestDispatcher(uri).forward(request,response);
+        goTo(request,response,uri);
     }
 
     //c. 进入更新页面
@@ -123,13 +122,13 @@ public class FoodTypeServlet extends HttpServlet {
             // 3. 保存
             request.setAttribute("foodType", ft);
             // 4. 跳转
-            uri = request.getRequestDispatcher("/sys/type/foodtype_update.jsp");
+            uri = "/sys/type/foodtype_update.jsp";
         } catch (Exception e) {
             e.printStackTrace();
             uri = "/error/error.jsp";
         }
 
-        goTo(request, response, uri);
+        goTo(request,response,uri);
     }
 
     //d. 删除
@@ -148,7 +147,7 @@ public class FoodTypeServlet extends HttpServlet {
             uri = "/error/error.jsp";
         }
 
-        goTo(request, response, uri);
+        goTo(request,response,uri);
     }
 
     // e. 更新
@@ -174,7 +173,8 @@ public class FoodTypeServlet extends HttpServlet {
         }
 
         // 跳转
-        goTo(request, response, uri);
+
+        goTo(request,response,uri);
     }
 
     /**
