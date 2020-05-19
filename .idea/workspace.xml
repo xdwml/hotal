@@ -6,23 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac2cd566-6a42-4836-952c-fdc73aaf5e88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hotel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/WEB-INF/classes/edu/xidian/service/Impl/FoodTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/WEB-INF/classes/edu/xidian/service/Impl/FoodTypeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/WEB-INF/classes/edu/xidian/servlet/FoodTypeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/WEB-INF/classes/edu/xidian/servlet/FoodTypeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/hotel_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hotel/edu/xidian/service/Impl/FoodTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hotel/edu/xidian/service/Impl/FoodTypeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hotel/edu/xidian/servlet/FoodTypeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hotel/edu/xidian/servlet/FoodTypeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/xidian/servlet/FoodTypeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/servlet/FoodTypeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sys/type/foodtype_update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sys/type/foodtype_update.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="ac2cd566-6a42-4836-952c-fdc73aaf5e88" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,11 +125,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -164,6 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587909239755</updated>
       <workItem from="1587909244481" duration="5706000" />
+      <workItem from="1588941592606" duration="589000" />
     </task>
     <servers />
   </component>
