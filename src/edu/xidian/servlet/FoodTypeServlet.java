@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -99,7 +98,7 @@ public class FoodTypeServlet extends HttpServlet {
             // 保存
             request.setAttribute("listFoodType", list);
             // 跳转的菜系列表页面
-            uri = "/sys/type/foodtype_list.jsp";
+            uri = "web/sys/type/foodtype_list.jsp";
         } catch (Exception e) {
             e.printStackTrace();
             uri = "/error/error.jsp";
@@ -120,7 +119,7 @@ public class FoodTypeServlet extends HttpServlet {
             // 3. 保存
             request.setAttribute("foodType", ft);
             // 4. 跳转
-            uri = "/sys/type/foodtype_update.jsp";
+            uri = "web/sys/type/foodtype_update.jsp";
         } catch (Exception e) {
             e.printStackTrace();
             uri = "/error/error.jsp";
