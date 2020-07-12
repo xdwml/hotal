@@ -21,7 +21,6 @@ import edu.xidian.service.IFoodTypeService;
  */
 
 public class FoodTypeServlet extends HttpServlet {
-
     // 调用的菜系Service
     public IFoodTypeService foodTypeService = BeanFactory.getInstance("foodTypeService", IFoodTypeService.class);
     // 跳转资源
@@ -77,6 +76,7 @@ public class FoodTypeServlet extends HttpServlet {
 
             // 3. 跳转
             uri = "/foodType?method=list";
+            System.out.println("跳转成功");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -98,7 +98,7 @@ public class FoodTypeServlet extends HttpServlet {
             // 保存
             request.setAttribute("listFoodType", list);
             // 跳转的菜系列表页面
-            uri = "web/sys/type/foodtype_list.jsp";
+            uri = "/sys/type/foodtype_list.jsp";
         } catch (Exception e) {
             e.printStackTrace();
             uri = "/error/error.jsp";
@@ -185,6 +185,7 @@ public class FoodTypeServlet extends HttpServlet {
             response.sendRedirect(request.getContextPath() + uri);
         }
     }
+
 
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

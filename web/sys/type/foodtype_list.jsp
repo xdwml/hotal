@@ -7,8 +7,6 @@
 	
 <title>无线点餐平台</title>
 
-
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="text/javascript" src="${pageContext.request.contextPath}/sys/style/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/sys/style/js/page_common.js"></script>
